@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Website Design</title>
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Googlefont cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" 
+    rel="stylesheet">
+
+    <!-- Custome scd -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- ====================================================================================================== 
+                                            Header section start
+ ========================================================================================================-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Active.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs- 
+                            toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Hero Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_8.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p >Welcome</p>
+                                    <h2 class="fs-3 fw-bold" >Excepteur sint occaecat cupidatat non proident</h2>
+                                    <p class="">Far far away there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                    <a href="#" class="btn text-white fs-6" style="background-color: #34bf49; font-size: 13px;">Get Started</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_7.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second Slide</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_8.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third Slide</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- ====================================================================================================== 
+                                            Header section end
+ ========================================================================================================-->
+
+ <!-- ====================================================================================================== 
+                                        Our-Mission section start
+ ========================================================================================================-->
+    <section class="Our-Mission" style="background-color: #f3f4f4;">
+        <div class="container">
+            <div class="content-section row" style="background-color: #fff;">
+              <div class="col-md-6 col-lg-6 col-sm-12 col-12 mt-5 p-5">
+                <p class="text">Our Mission</p>
+                <h2 style="color:#2d465e" class="fs-3">The Big Oxmox advised her not to do so, because there were thousands.</h2>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+                <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli.</p>
+                <button class="btn text-white" style="background-color: #34bf49;">Get Started</button>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_v_3.jpg" class="img-fluid" alt="Descriptive image" >
+              </div>
+            </div>
+          </div>
+    </section>
+ <!-- ====================================================================================================== 
+                                        Our-Mission section end
+ ========================================================================================================-->
+
+  <!-- ====================================================================================================== 
+                                        services section start
+ ========================================================================================================-->
+ <section id="services" class="services section light-background" style="background-color:#f3f4f4;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="row mx-auto">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="services-icon">
+                  <!-- <i class="bi bi-bullseye"></i> -->
+
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" x="0" y="0" viewBox="0 0 64 64" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                    <g>
+                      <path d="M2.102 32.242c.227 1.868.648 3.69 1.25 5.408a26.585 26.585 0 0 0 8.232 11.89l-4.176 6.873a3.654 3.654 0 0 0-.429 2.781 3.651 3.651 0 0 0 1.666 2.267 3.646 3.646 0 0 0 2.778.432 3.65 3.65 0 0 0 2.272-1.66l4.135-6.806c.702.312 1.416.604 2.15.856a25.772 25.772 0 0 0 5.415 1.252c.005 0 .008.004.012.004 1.15.146 2.297.218 3.436.218 3.78 0 7.464-.8 10.856-2.315l4.123 6.789A3.642 3.642 0 0 0 46.972 62a3.682 3.682 0 0 0 3.139-5.588l-4.171-6.864a26.799 26.799 0 0 0 8.627-13.152 1 1 0 1 0-1.922-.553 24.796 24.796 0 0 1-6.294 10.63c-.73.728-1.498 1.402-2.296 2.027-.015.01-.034.013-.048.024a23.633 23.633 0 0 1-4.358 2.723c-.017.009-.028.026-.045.035a24.694 24.694 0 0 1-13.945 2.273c-.004 0-.006-.003-.01-.003a23.76 23.76 0 0 1-5.012-1.158c-.95-.327-1.87-.711-2.764-1.145l-.003-.002a23.705 23.705 0 0 1-4.358-2.723c-.008-.006-.019-.007-.027-.013a25.27 25.27 0 0 1-2.316-2.043 24.622 24.622 0 0 1-5.928-9.474 23.798 23.798 0 0 1-1.155-5.007c0-.004-.004-.008-.004-.013-.972-7.674 1.61-15.215 7.083-20.688 9.701-9.7 25.484-9.7 35.186 0a24.835 24.835 0 0 1 6.294 10.63 1 1 0 1 0 1.921-.556 26.844 26.844 0 0 0-6.801-11.488C37.285-.608 20.23-.608 9.75 9.872 3.836 15.787 1.047 23.936 2.098 32.23c0 .005.003.008.004.013zM48.4 57.449a1.679 1.679 0 0 1-.566 2.305 1.694 1.694 0 0 1-2.3-.558l-4.032-6.636c.98-.53 1.929-1.128 2.844-1.783l4.054 6.672zm-32.378-4.898-4.035 6.643c-.232.381-.6.649-1.036.755a1.659 1.659 0 0 1-1.268-.197 1.66 1.66 0 0 1-.76-1.033 1.666 1.666 0 0 1 .195-1.268l4.054-6.673a26.4 26.4 0 0 0 2.818 1.754l.032.019z" fill="currentColor" opacity="1" data-original="currentColor"></path>
+                      <path d="M45.985 26.042a1 1 0 0 0 1.975-.322 19.31 19.31 0 0 0-5.442-10.601c-3.677-3.678-8.564-5.702-13.76-5.702s-10.083 2.024-13.76 5.702a19.333 19.333 0 0 0-5.7 13.757 19.33 19.33 0 0 0 5.7 13.763 19.328 19.328 0 0 0 13.759 5.7h.004a19.33 19.33 0 0 0 13.757-5.7 19.306 19.306 0 0 0 5.442-10.6 1 1 0 0 0-.826-1.148.995.995 0 0 0-1.149.825 17.306 17.306 0 0 1-4.881 9.51 17.345 17.345 0 0 1-12.344 5.113h-.003a17.343 17.343 0 0 1-12.345-5.114 17.344 17.344 0 0 1-5.114-12.349 17.348 17.348 0 0 1 5.114-12.343c3.299-3.3 7.684-5.116 12.346-5.116s9.047 1.816 12.346 5.116a17.31 17.31 0 0 1 4.881 9.509z" fill="currentColor" opacity="1" data-original="currentColor"></path>
+                      <path d="M39.063 26.137a1 1 0 0 0 1.934-.513 12.657 12.657 0 0 0-3.287-5.697c-2.392-2.39-5.57-3.708-8.952-3.708s-6.56 1.317-8.952 3.708a12.56 12.56 0 0 0-3.702 8.946 12.58 12.58 0 0 0 3.709 8.95 12.626 12.626 0 0 0 8.956 3.705c3.238 0 6.476-1.233 8.941-3.697a12.665 12.665 0 0 0 3.286-5.697 1 1 0 0 0-1.933-.513 10.662 10.662 0 0 1-2.767 4.796c-4.154 4.152-10.913 4.149-15.07-.007a10.596 10.596 0 0 1-3.122-7.537 10.574 10.574 0 0 1 3.116-7.532c4.156-4.156 10.92-4.156 15.076 0a10.656 10.656 0 0 1 2.767 4.796z" fill="currentColor" opacity="1" data-original="currentColor"></path>
+                      <path d="M31.65 25.986c.158.159.282.306.378.45a1 1 0 0 0 1.662-1.11c-.17-.255-.374-.5-.626-.753a6.099 6.099 0 0 0-8.613 0 6.098 6.098 0 0 0 0 8.613 6.07 6.07 0 0 0 4.306 1.78c1.56 0 3.12-.594 4.31-1.782.251-.253.455-.499.623-.75a1 1 0 1 0-1.662-1.112c-.096.143-.22.29-.378.45a4.096 4.096 0 0 1-5.785 0 4.097 4.097 0 0 1 0-5.785 4.096 4.096 0 0 1 5.784-.001z" fill="currentColor" opacity="1" data-original="currentColor"></path>
+                      <path d="M61.994 24.16a1.001 1.001 0 0 0-.879-.523h-8.758a.999.999 0 0 0-.84.457l-2.442 3.783H28.76a1 1 0 1 0 0 2h20.315l2.443 3.782c.183.285.5.458.84.458h6.291a.95.95 0 0 0 .113.006h.003l2.353-.006a.999.999 0 0 0 .836-1.545l-2.397-3.695 2.397-3.696c.2-.307.215-.7.04-1.022zm-9.092 1.477h6.372l-1.453 2.24h-6.366zm5.964 6.486a1.044 1.044 0 0 0-.11-.006h-5.854l-1.446-2.24h6.365l1.456 2.245z" fill="currentColor" opacity="1" data-original="currentColor"></path>
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <p>Technology</p>
+                  <p>Separated they live in Bookmarksgrove right at the coast</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="services-icon">
+                  <!-- <i class="bi bi-laptop"></i> -->
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" x="0" y="0" viewBox="0 0 64 64" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                    <g>
+                      <path d="M57 5H7c-2.76 0-5 2.24-5 5v34c0 2.76 2.24 5 5 5h16.21l-2.89 5.65c-.47.93-.43 2.01.11 2.9.56.91 1.53 1.45 2.61 1.45h17.91c1.08 0 2.05-.54 2.61-1.45.54-.89.59-1.97.11-2.9L40.78 49h16.21c2.76 0 5-2.24 5-5V10c0-2.76-2.24-5-5-5zm3 5v31H37V7h20c1.65 0 3 1.35 3 3zM7 7h28v34H4V10c0-1.65 1.35-3 3-3zm34.89 48.56c.22.44.05.81-.04.95-.09.15-.36.49-.9.49H23.04c-.54 0-.81-.35-.9-.49a.98.98 0 0 1-.04-.95L25.45 49h13.08l3.35 6.56zM60 44c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3v-1h56z" fill="currentColor" opacity="1" data-original="currentColor" class=""></path>
+                      <path d="M9 24h22c1.1 0 2-.9 2-2V12c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2zm0-12h22v10H9zM9 38h8c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2zm0-10h8v8H9zM31 26h-8c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2zm-8 10v-8h8v8h-8zM56 36H41c-.55 0-1 .45-1 1s.45 1 1 1h15c.55 0 1-.45 1-1s-.45-1-1-1zM56 31H41c-.55 0-1 .45-1 1s.45 1 1 1h15c.55 0 1-.45 1-1s-.45-1-1-1zM56 26H41c-.55 0-1 .45-1 1s.45 1 1 1h15c.55 0 1-.45 1-1s-.45-1-1-1zM52.4 20.8c.18.13.39.2.6.2.3 0 .6-.14.8-.4l3-4a.99.99 0 0 0 0-1.2l-3-4c-.33-.44-.96-.53-1.4-.2s-.53.96-.2 1.4l2.55 3.4-2.55 3.4c-.33.44-.24 1.07.2 1.4zM39.2 16.6l3 4c.2.26.5.4.8.4.21 0 .42-.07.6-.2.44-.33.53-.96.2-1.4L41.25 16l2.55-3.4c.33-.44.24-1.07-.2-1.4s-1.07-.24-1.4.2l-3 4a.99.99 0 0 0 0 1.2zM46.76 20.97a.992.992 0 0 0 1.21-.73l2-8a.995.995 0 0 0-.73-1.21.987.987 0 0 0-1.21.73l-2 8c-.13.54.19 1.08.73 1.21z" fill="currentColor" opacity="1" data-original="currentColor" class=""></path>
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <p>Web Design</p>
+                  <p>Separated they live in Bookmarksgrove right at the coast</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="services-icon">
+                  <!-- <i class="bi bi-bar-chart"></i> -->
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" x="0" y="0" viewBox="0 0 512 512"  xml:space="preserve" class="">
+                    <g>
+                      <path d="M496 441.87h-14.683v-276.1a8 8 0 0 0-8-8h-63.084a8 8 0 0 0-8 8v276.1h-38.05V291.542a8 8 0 0 0-8-8H293.1a8 8 0 0 0-8 8V441.87h-38.054V248.52a8 8 0 0 0-8-8h-63.083a8 8 0 0 0-8 8v193.35h-38.052v-86.92a8 8 0 0 0-8-8H58.827a8 8 0 0 0-8 8v86.92H24V62.128a8 8 0 0 0-16 0V449.87a8 8 0 0 0 8 8h480a8 8 0 0 0 0-16zm-77.767-268.1h47.084v268.1h-47.084zM301.1 299.542h47.084V441.87H301.1zM183.963 256.52h47.083v185.35h-47.083zM66.827 362.95h47.084v78.92H66.827zm23.542-66.623c19.332 0 35.061-15.729 35.061-35.061 0-5.23-1.159-10.191-3.221-14.654l63.295-49.285c6.021 4.867 13.674 7.79 22.001 7.79 14.029 0 26.154-8.287 31.754-20.219l50.343 10.57c.438 18.955 15.982 34.243 35.04 34.243 19.332 0 35.061-15.729 35.061-35.061 0-6.079-1.557-11.8-4.291-16.789l66.269-59.27a34.855 34.855 0 0 0 20.095 6.356c19.332 0 35.061-15.729 35.061-35.061s-15.729-35.061-35.061-35.061-35.061 15.729-35.061 35.061a34.841 34.841 0 0 0 4.29 16.788l-66.269 59.271a34.853 34.853 0 0 0-20.094-6.355c-14.029 0-26.154 8.287-31.754 20.219l-50.342-10.57c-.438-18.956-15.982-34.244-35.04-34.244-19.332 0-35.061 15.729-35.061 35.062 0 5.229 1.159 10.19 3.221 14.652l-63.296 49.285c-6.021-4.866-13.674-7.789-22-7.789-19.333 0-35.062 15.729-35.062 35.061s15.728 35.061 35.061 35.061zm351.406-225.5c10.51 0 19.061 8.551 19.061 19.061s-8.551 19.061-19.061 19.061-19.061-8.551-19.061-19.061 8.552-19.061 19.061-19.061zM324.642 175.591c10.51 0 19.061 8.551 19.061 19.061s-8.551 19.061-19.061 19.061-19.061-8.551-19.061-19.061 8.551-19.061 19.061-19.061zm-117.137-24.595c10.51 0 19.061 8.551 19.061 19.062 0 10.51-8.551 19.061-19.061 19.061s-19.061-8.551-19.061-19.061c0-10.511 8.551-19.062 19.061-19.062zm-117.136 91.21c10.51 0 19.061 8.551 19.061 19.061s-8.551 19.061-19.061 19.061c-10.511 0-19.062-8.551-19.062-19.061s8.551-19.061 19.062-19.061z" fill="currentColor" opacity="1" data-original="currentColor"></path>
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <p>Branding</p>
+                  <p>Separated they live in Bookmarksgrove right at the coast</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Services Section -->
+
+  <!-- ====================================================================================================== 
+                                        services section end
+ ========================================================================================================-->
+
+
+  <!-- ====================================================================================================== 
+                                        content-section section start
+ ========================================================================================================-->
+ <section class="wwhy-us" style="background-color:#f3f4f4 ;">
+ <div class="container p-5">
+  <div class="row mx-auto">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+    <div class="img">
+        <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_v_1.jpg" alt="Watch" class="img-fluid">
+    </div>
+  </div>
+  <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+    <div class="text">
+        <h2 class="fs-6 mt-5">Why Us</h2>
+        <h3 class="fs-6 mt-3" style="color: #2d465e;">Far far away Behind the Word Mountains</h3>
+        <p class="mt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <div class="column" id="column1">0</div>
+        <div class="column" id="column2">0</div>
+        <div class="column" id="column3">0</div>
+    </div>
+    </div>
+</div>
+</div>
+
+</section>
+  <!-- ====================================================================================================== 
+                                        content-section section end
+ ========================================================================================================-->
+
+<!-- ====================================================================================================== 
+                                        blog section start
+========================================================================================================-->
+<section class="blog my-blog">
+    <div class="container mt-5">
+        <p class="text-center">Recent Posts</p>
+        <h3 class="text-center mb-5">Blog Posts</h3>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card border-0">
+              <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_3.jpg" class="card-img-top" alt="Blog Post Image">
+              <div class="card-body ">
+                <p class="card-text text-muted " style="font-size: 11px;">DEVELOPMENT - July 20, 2020</p>
+                <h2 class="card-title fs-5" style="color: #2d465e;">There live the blind texts they</h2>
+                <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/team/team-3.jpg" class="rounded-circle me-2" alt="Author Image">
+                <span>Winston Gold</span>
+                <br>
+                <small class="text-muted">Lead Product Designer</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_4.jpg" class="card-img-top" alt="Blog Post Image">
+              <div class="card-body">
+                <p class="card-text text-muted">DEVELOPMENT - July 20, 2020</p>
+                <h2 class="card-title fs-5"style="color: #2d465e;" >There live the blind texts they</h2>
+                <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/team/team-2.jpg" class="rounded-circle me-2" alt="Author Image">
+                <span>Winston Gold</span>
+                <br>
+                <small class="text-muted">Lead Product Designer</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_1.jpg" class="card-img-top" alt="Blog Post Image">
+              <div class="card-body">
+                <p class="card-text text-muted">DEVELOPMENT - July 20, 2020</p>
+                <h2 class="card-title fs-5" style="color: #2d465e;">There live the blind texts theys</h2>
+                <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/team/team-1.jpg" class="rounded-circle me-2" alt="Author Image">
+                <span>Winston Gold</span>
+                <br>
+                <small class="text-muted">Lead Product Designer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!-- ====================================================================================================== 
+                                        blog section start
+========================================================================================================-->
+
+<!-- ====================================================================================================== 
+                                        sell-product section start
+========================================================================================================-->
+<section class="sell-product" style="background-color:#f3f4f4;">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-4 col-lg-4  my-5">
+        <div class="caption">
+          <h1 class="fs-5" style="color:#2d465e ;">Modern and clean design</h1>
+          <p>Far far away, behind the word mountains <br>from the countries</p>
+        </div>
+        <div class="caption mt-4">
+          <h1 class="fs-5" style="color:#2d465e ;">Sell Product</h1>
+          <p>Far far away, behind the word mountains<br>from the countries</p>
+        </div>
+        <div class="caption mt-4">
+          <h1 class="fs-5" style="color:#2d465e ;">Success Evary Day</h1>
+          <p>Far far away, behind the word mountains<br>from the countries</p>
+        </div>
+        <div class="caption mt-4">
+          <h1 class="fs-5" style="color:#2d465e ;">Brings ideas to life</h1>
+          <p>Far far away, behind the word mountains<br>from the countries</p>
+        </div>
+        <div class="caption mt-4">
+          <h1 class="fs-5" style="color:#2d465e ;">Brings ideas to life</h1>
+          <p>Far far away, behind the word mountains<br>from the countries</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-8 col-lg-8 my-5">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/img_h_4.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ====================================================================================================== 
+                                        sell-product section start
+========================================================================================================-->
+
+<!-- ====================================================================================================== 
+                                        our services section start
+========================================================================================================-->
+
+<section class="Our-Services mt-5">
+  <h1 class="text-center fs-4 " style="color:#2d465e ;">Our Services</h1>
+  <p class="text-center">Far far away, behind the word mountains, far<br> from the countries Vokalia</p>
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-md-4 mb-4 bg-white my-5">
+        <div class="card p-5"  style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <i class="fa-brands fa-squarespace" style="color: #34bf49;"></i>
+          <h3 class="mt-4 fs-5">Brilliant Ideas</h3>
+          <p>Separated they live in Bookmarksgrove right at the coast</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 my-5">
+        <div class="card p-5"  style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <i class="fa-solid fa-circle-user" style="color: #34bf49;"></i>
+          <h3 class="mt-4 fs-5">Square</h3>
+          <p>Separated they live in Bookmarksgrove right at the coast</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 my-5" >
+        <div class="card p-5"  style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <i class="fa-solid fa-microchip" style="color: #34bf49;"></i>
+          <h3 class="mt-4 fs-5">Technology</h3>
+          <p>Separated they live in Bookmarksgrove right at the coast</p>
+        </div>
+      </div>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4 mb-4 my-3">
+        <div class="card p-5"  style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <i class="fa-brands fa-squarespace" style="color: #34bf49;"></i>
+          <h3 class="mt-4 fs-5">Brilliant Ideas</h3>
+          <p>Separated they live in Bookmarksgrove right at the coast</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 my-3">
+        <div class="card p-5"  style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <i class="fa-solid fa-circle-user" style="color: #34bf49;"></i>
+          <h3 class="mt-4 fs-5">Square</h3>
+          <p>Separated they live in Bookmarksgrove right at the coast</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 my-3" >
+        <div class="card p-5"  style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <i class="fa-solid fa-microchip" style="color: #34bf49;"></i>
+          <h3 class="mt-4 fs-5">Technology</h3>
+          <p>Separated they live in Bookmarksgrove right at the coast</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ====================================================================================================== 
+                                        our services section end
+========================================================================================================-->
+
+<!-- ====================================================================================================== 
+                                        pricing-content section start
+========================================================================================================-->
+
+<section id="pricing" class="pricing-content section-padding mt-5 p-3" style="background-color: #f3f4f4;">
+	<div class="container">					
+		<div class="section-title text-center">
+			<h2 class="fs-4" style="color: #2d465e;">Pricing Plans</h2>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+		</div>				
+		<div class="row text-center">									
+			<div class="col-lg-4 col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+				<div class="pricing_design">
+					<div class="single-pricing">
+						<div class="price-head">		
+							<h2>Free</h2>
+							<h1>$0</h1>
+							<span>/Monthly</span>
+						</div>
+						<ul>
+							<li><b>16</b> website</li>
+							<li><b>50GB</b> Disk Space</li>
+							<li><b>50</b> Email</li>
+							<li><b>50GB</b> Bandwidth</li>
+						</ul>
+						<div class="pricing-price">
+							
+						</div>
+						<a href="#" class="price_btn">Order Now</a>
+					</div>
+				</div>
+			</div><!--- END COL -->	
+			<div class="col-lg-4 col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+				<div class="pricing_design">
+					<div class="single-pricing">
+						<div class="price-head">		
+							<h2>Business</h2>
+							<h1 class="price">$19</h1>
+							<span>/Monthly</span>
+						</div>
+						<ul>
+							<li><b>15</b> website</li>
+							<li><b>50GB</b> Disk Space</li>
+							<li><b>50</b> Email</li>
+							<li><b>50GB</b> Bandwidth</li>
+						</ul>
+						<div class="pricing-price">
+							
+						</div>
+						<a href="#" class="price_btn">Order Now</a>
+					</div>
+				</div>
+			</div><!--- END COL -->	
+			<div class="col-lg-4 col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+				<div class="pricing_design">
+					<div class="single-pricing">
+						<div class="price-head">		
+							<h2>Ultimate</h2>
+							<h1 class="price">$49</h1>
+							<span>/Monthly</span>
+						</div>
+						<ul>
+							<li><b>15</b> website</li>
+							<li><b>50GB</b> Disk Space</li>
+							<li><b>50</b> Email</li>
+							<li><b>50GB</b> Bandwidth</li>
+						</ul>
+						<div class="pricing-price">
+							
+						</div>
+						<a href="#" class="price_btn">Order Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ====================================================================================================== 
+                                        pricing-content section end
+========================================================================================================-->
+
+<!-- ====================================================================================================== 
+                                        testomanls section start
+========================================================================================================-->
+<div id="testimonialCarousel" class="carousel slide testimonial my-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/testimonials/testimonials-3.jpg" class="d-block mx-auto" alt="Person 1">
+      <p class="mt-4">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquam suscipit quibusdam a? Quasi, deserunt, inventore explicabo eaque magnam illo sequi facere veniam beatae laudantium laboriosam?"</p>
+      <h5 class="mt-2">- Person 1</h5>
+    </div>
+    <div class="carousel-item">
+      <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/testimonials/testimonials-3.jpg" class="d-block mx-auto" alt="Person 2">
+      <p class="mt-4">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquam suscipit quibusdam a? Quasi, deserunt, inventore explicabo eaque magnam illo sequi facere veniam beatae laudantium laboriosam?"</p>
+      <h5 class="mt-2">- Person 2</h5>
+    </div>
+    <div class="carousel-item">
+      <img src="https://bootstrapmade.com/demo/templates/Active/assets/img/testimonials/testimonials-2.jpg" class="d-block mx-auto" alt="Person 3">
+      <p class="mt-4">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquam suscipit quibusdam a? Quasi, deserunt, inventore explicabo eaque magnam illo sequi facere veniam beatae laudantium laboriosam?"</p>
+      <h5 class="mt-2">- Person 3</h5>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- ====================================================================================================== 
+                                        testomanls section start
+========================================================================================================-->
+
+<!-- ====================================================================================================== 
+                                        Footer section start
+========================================================================================================-->
+    <!-- Footer -->
+    <footer class="footer mt-auto py-4">
+      <div class="container">
+          <div class="row">
+              <!-- About Us -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h3 class="text-uppercase fs-6" style="color: #2d465e;">About Us</h3>
+                  <p>There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                  <button class="btn btn-success">Learn more</button>
+              </div>
+
+              <!-- Navigation -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h3 class="text-uppercase fs-6" style="color: #2d465e;">Navigation</h3>
+                  <ul class="list-unstyled mb-0">
+                      <li><a href="#!" class="text-dark">Overview</a></li>
+                      <li><a href="#!" class="text-dark">About Us</a></li>
+                      <li><a href="#!" class="text-dark">Find Buyers</a></li>
+                  </ul>
+              </div>
+
+              <!-- Recent Posts -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h3 class="text-uppercase fs-6"style="color: #2d465e;" >Recent Posts</h3>
+                  <ul class="list-unstyled mb-0">
+                      <li><a href="#!" class="text-dark">May 3, 2020 - There live the Blind Texts</a></li>
+                      <li><a href="#!" class="text-dark">May 3, 2020 - Separated they live in Bookmarksgrove</a></li>
+                  </ul>
+              </div>
+
+              <!-- Connect -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h3 class="text-uppercase fs-6">Connect</h3>
+                  <ul class="list-unstyled list-inline mb-0">
+                      <li class="list-inline-item"><a href="#!" class="text-dark"><i class="fab fa-facebook"></i></a></li>
+                      <li class="list-inline-item"><a href="#!" class="text-dark"><i class="fab fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#!" class="text-dark"><i class="fab fa-linkedin"></i></a></li>
+                      <li class="list-inline-item"><a href="#!" class="text-dark"><i class="fab fa-google"></i></a></li>
+                      <li class="list-inline-item"><a href="#!" class="text-dark"><i class="fab fa-play"></i></a></li>
+                  </ul>
+                  <h5 class="text-uppercase mt-3 fs-6" >Subscribe</h5>
+                  <div class="input-group">
+                      <input type="email" class="form-control" placeholder="Enter your email">
+                      <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button">→</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="text-center py-3">© Copyright <strong>Active</strong>. All Rights Reserved | Designed by BootstrapMade</div>
+  </footer>
+<!-- ====================================================================================================== 
+                                        Footer section end
+========================================================================================================-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384- 
+    IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384- 
+    cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
